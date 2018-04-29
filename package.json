@@ -1,6 +1,6 @@
 {
   "name": "@axetroy/react-codebox",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "codebox component for react",
   "main": "./dist/index.js",
   "scripts": {
