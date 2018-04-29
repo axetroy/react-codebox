@@ -65,5 +65,10 @@ example
 
 webpack.config.dev.js
 webpack.config.prod.js
+webpack.config.doc.js
 .babelrc
 .editorconfig
+docs
+.babelrc
+.editorconfig
+src

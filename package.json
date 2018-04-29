@@ -6,7 +6,9 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.dev.js",
     "dev": "rimraf lib && webpack --config webpack.config.prod.js --display-error-details --progress --colors --watch",
-    "build": "rimraf lib && webpack --config webpack.config.prod.js --display-error-details --progress --colors"
+    "build": "rimraf lib && webpack --config webpack.config.prod.js --display-error-details --progress --colors",
+    "doc": "npm run build && rimraf docs && webpack --config webpack.config.doc.js --display-error-details --progress --colors",
+    "deploy": "gh-pages -d ./docs"
   },
   "keywords": [
     "react",
@@ -24,6 +26,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^0.28.11",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",

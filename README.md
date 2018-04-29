@@ -21,7 +21,7 @@ class App extends Component {
     return (
       <div>
         <Codebox
-          lang={4}
+          length={4}
           validator={(input, index) => {
             return /\d/.test(input);
           }}
