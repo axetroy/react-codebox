@@ -8,7 +8,7 @@
     "dev": "rimraf lib && webpack --config webpack.config.prod.js --display-error-details --progress --colors --watch",
     "build": "rimraf lib && webpack --config webpack.config.prod.js --display-error-details --progress --colors",
     "doc": "npm run build && rimraf docs && webpack --config webpack.config.doc.js --display-error-details --progress --colors",
-    "deploy": "gh-pages -d ./docs"
+    "deploy": "npx gh-pages -d ./docs"
   },
   "keywords": [
     "react",

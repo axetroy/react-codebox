@@ -2,7 +2,7 @@
 
 验证码输入框的 React 实现.
 
-[在线 demo](https://axetroy.github.io/react-codebox)
+[在线 demo](https://axetroy.github.io/react-codebox/)
 
 ## Install
 
