@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 2rem 0;
+}
+
+.meta {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.content .example-item {
+  margin: 20px 0;
+}
+
+.desc {
+  color: #ccc;
+}
+
+/* .footer {
+  background: #ccc;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.footer .footer-content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */

@@ -1,0 +1,36 @@
+{
+  "name": "@axetroy/react-codebox",
+  "version": "0.0.1",
+  "description": "codebox component for react",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "dev": "rimraf lib && webpack --config webpack.config.prod.js --display-error-details --progress --colors --watch",
+    "build": "rimraf lib && webpack --config webpack.config.prod.js --display-error-details --progress --colors"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "code"
+  ],
+  "author": "axetroy",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.19.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
