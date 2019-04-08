@@ -1,5 +1,7 @@
 # react-codebox
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/react-codebox.svg)](https://greenkeeper.io/)
+
 验证码输入框的 React 实现.
 
 [在线 demo](https://axetroy.github.io/react-codebox/)
